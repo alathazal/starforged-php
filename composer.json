@@ -1,0 +1,37 @@
+{
+    "name": "alathazal/starforged-php",
+    "description": "A php wrapper to feed the data provided by the alathazal/starforged-data package.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alathazal\\StarforgedPhp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alathazal",
+            "email": "alathazal@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "alathazal/starforged-data": "^1.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^5.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "pest"
+    }
+}
