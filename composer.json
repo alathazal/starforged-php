@@ -1,6 +1,6 @@
 {
     "name": "alathazal/starforged-php",
-    "description": "A php wrapper to feed the data provided by the alathazal/starforged-data package.",
+    "description": "A generic PHP wrapper that loads the JSON data files provided by the alathazal/starforged-data package, to provide them as standard PHP array resources.",
     "type": "library",
     "license": "MIT",
     "autoload": {
