@@ -17,7 +17,8 @@ class StarforgedPhp
             $this->dataFiles[$dataType->value] = json_decode(
                 file_get_contents(
                     StarforgedData::getDataPath($dataType)
-                )
+                ),
+                true
             );
         }
     }
